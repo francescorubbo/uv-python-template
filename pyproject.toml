@@ -15,5 +15,6 @@ dev-dependencies = [
     "deptry>=0.20.0",
     "mypy>=1.11.2",
     "pre-commit>=4.0.0",
+    "pytest>=8.3.3",
     "ruff>=0.6.9",
 ]
