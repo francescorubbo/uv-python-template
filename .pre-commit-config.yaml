@@ -1,11 +1,11 @@
 repos:
   - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.5.5
+    rev: 0.8.8
     hooks:
       # Update the uv lockfile
       - id: uv-lock
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.8.1
+    rev: v0.12.8
     hooks:
       # Run the linter.
       - id: ruff
@@ -13,7 +13,6 @@ repos:
       # Run the formatter.
       - id: ruff-format
   - repo: https://github.com/francescorubbo/deptry-pre-commit
-    rev: v0.21.1
+    rev: v0.23.0
     hooks:
       - id: deptry
-        args: []
